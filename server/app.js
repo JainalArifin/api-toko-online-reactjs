@@ -36,6 +36,6 @@ app.use(function(req, res, next) {
 app.use('/product', product)
 app.use('/user', user)
 
-app.listen(3030, ()=>{
-    console.log('listening port: 3001 oke');
+app.listen(3021, ()=>{
+    console.log('listening port: 3021 oke');
 })
